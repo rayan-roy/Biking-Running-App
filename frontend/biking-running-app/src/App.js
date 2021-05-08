@@ -1,10 +1,22 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Login from './components/pages/Login';
+import Home from './components/pages/Home';
+import Session from './components/pages/Session';
 
 function App() {
   return (
-    <div className="App">
-        Hello 
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <br/>
+      <Route path = "/" exact component = { Login }/>
+      <Route path = "/home" exact component = { Home }/>
+      <Route path = "/session" exact component = { Session }/>
+    </Router>
+    </>
   );
 }
 
