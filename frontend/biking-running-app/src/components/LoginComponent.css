@@ -1,0 +1,14 @@
+ body{
+     background-image: url("Running.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0px 40px;
+ }
+
+.login-container{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: 13%;
+}

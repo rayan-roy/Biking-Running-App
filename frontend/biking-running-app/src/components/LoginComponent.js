@@ -1,4 +1,5 @@
 import React from 'react'
+import './LoginComponent.css'
 
 function LoginComponent() {
     return (
@@ -8,14 +9,11 @@ function LoginComponent() {
             <div class = "login-form">
                 <div class = "username-input">
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                        </div>
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
                     </div>
                 </div>
-                <div class = "sign-up-button">
-                    <button type="button" class="btn btn-primary">Sign Up</button>
+                <div class = "start-session-button">
+                <a class="btn btn-primary" href="/session" role="button">Start a Session</a>
                 </div>
             </div>
         </div>

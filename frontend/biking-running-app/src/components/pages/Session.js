@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import SessionComponent from '../SessionComponent';
 
 function Session() {
     return (
-        <div>
-            SESSION COMPONENT 
-        </div>
+        <SessionComponent />
     )
 }
 

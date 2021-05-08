@@ -1,0 +1,11 @@
+body{
+    background-image: none;
+}
+
+.session-container{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+    margin-top: 5vh;
+}
