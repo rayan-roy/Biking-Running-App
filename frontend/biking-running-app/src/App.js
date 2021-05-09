@@ -5,15 +5,17 @@ import Navbar from './components/Navbar';
 import Login from './components/pages/Login';
 import Session from './components/pages/Session';
 
+require('dotenv').config()
+
 function App() {
   return (
     <>
-    <Router>
-      <Navbar />
-      <br/>
-      <Route path = "/" exact component = { Login }/>
-      <Route path = "/session" exact component = { Session }/>
-    </Router>
+      <Router>
+        <Navbar />
+        <br />
+        <Route path="/" exact component={Login} />
+        <Route path="/session" exact component={Session} />
+      </Router>
     </>
   );
 }

@@ -3,9 +3,45 @@ body{
 }
 
 .session-container{
-    width: 50vh;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     margin-left: 20vh;
     margin-top: 5vh;
+}
+
+.map{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 20vh; 
+    float: left;
+}
+
+.session-container-2{
+    display:inline-block;
+}
+
+.card-container{
+    float: right; 
+    margin-left: 20px;
+    width: 30vw;
+}
+.card{
+    margin-bottom: 20px;
+    height: 90px;
+    border: solid 2px #AAADFF;
+}
+
+.card:hover{
+    background-color: #533E8E;
+    color: white; 
+    border: none;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    
+}
+
+i{
+    margin-right: 5px;
+    color: #AAADFF; 
 }

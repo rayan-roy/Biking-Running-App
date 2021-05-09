@@ -1,3 +1,7 @@
 .navbar-brand{
-    margin-left: 10vh;
+    margin-left: 20vh;
+}
+
+.navbar-light{
+    background-color: #aaadff;
 }
